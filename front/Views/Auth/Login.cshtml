@@ -1,0 +1,39 @@
+@using LoginViewModel
+@{
+    Layout = "_Layout.Auth";
+}
+<div class="ui middle aligned center aligned grid">
+    <div class="column" id="login">
+        <h2 class="ui image header">
+            <img src="~/icon/login.png" class="image">
+        </h2>
+        <form class="ui large form"  action="#" method="post">
+            <div class="ui mini red message">{{context.error_message}}</div>
+            <div class="ui segment">
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="username" placeholder="Username" value="{{ context.username }}">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="lock icon"></i>
+                        <input type="password" name="password" placeholder="Password" value="{{ context.password }}">
+                    </div>
+                </div>
+                <button class="ui animated fluid large button" id="login-btn" tabindex="0">
+                    <div class="visible content">Login</div>
+                    <div class="hidden content">
+                        <i class="shield alternate icon"></i>
+                    </div>
+                </button>
+            </div>
+        </form>
+        <div class="ui one column" id="login-footer">
+            <div class="column">
+                <p><small>Design by fbarikzehi | Powered by .net core </small></p>
+            </div>
+        </div>
+    </div>
+</div>

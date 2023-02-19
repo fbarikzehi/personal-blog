@@ -1,0 +1,13 @@
+
+:root{
+    --main-color: #2d53fe;
+}
+.base-bg{
+    background: #645df8;
+}
+.base-cl{
+    color: #645df8;
+}
+.black-cl{
+    color: #000000;
+}

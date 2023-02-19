@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fbarikzehi</title>
+    <link rel="stylesheet" type="text/css" href="~/lib/semantic/semantic.css">
+    <link rel="stylesheet" href="~/css/global.css">
+    <link rel="stylesheet" href="~/css/colors.css">
+    <link rel="stylesheet" href="~/css/components.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="~/images/logo.png" alt="fbarikzehi" title="fbarikzehi write about science and technology">
+            <span>
+                barikzehi
+                <p>Programming,Science and technology</p>
+            </span>
+        </div>
+        <div class="nav-container">
+          <nav class="nav">
+            <ul class="ul-inline">
+                <li><a href="#">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social-buttons">
+          <a class="link ui icon  button"><i class="twitter icon"></i></a>
+          <a class="link ui icon  button"><i class="linkedin icon"></i></a>
+          <a class="link ui icon  button"><i class="telegram icon"></i></a>
+          <a class="link ui icon  button"><i class="github icon"></i></a>
+          <a class="link ui icon  button"><i class="youtube icon"></i></a>
+          <!-- <a class="link ui icon  button"><i class="stackoverflow icon"></i></a> -->
+        </div>
+    </header>
+<div class="content_wrapper">
+    <main class="container">
+        @RenderBody()
+    </main> 
+    <footer>
+        <p>fbarikzehi.com | Programming, Science & Technology </p>
+    </footer>           
+    <script src="~/js/global.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+body {
+    background-color: #210f83;
+}
+
+body>.grid {
+    height: 100%;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.column {
+    max-width: 450px;
+}
+
+.ui.segment {
+    border: 0 !important;
+    box-shadow: none!important;
+}
+
+#login {
+    background-color: #ffffff;
+    border: 1px solid #b5b5b57a;
+    border-radius: 5px;
+}
+.ui.header{
+    color: #7b33c8;
+}
+#login-btn{
+    background-color: #7b33c8!important;
+    color: #ffffff;
+}
+#login-footer{
+    margin-top: 10%;
+}
+#login-footer >div.column > p{
+    text-align: center;
+}

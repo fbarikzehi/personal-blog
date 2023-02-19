@@ -1,0 +1,28 @@
+.ce-toolbar__content {
+    max-width: 100%!important;
+  }
+  .ce-block__content {
+    max-width: 100%!important;
+  }
+
+  .codex-editor__redactor{
+    padding-bottom: 300px!important;
+border: 1px solid rgba(34,36,38,.15);
+padding: 1%;
+  }
+  .ce-toolbox--opened{
+    background-color: #fff;
+    border: 1px solid #e8e8eb;
+    -webkit-box-shadow: 0 3px 15px -3px rgba(13,20,33,.13);
+    box-shadow: 0 3px 15px -3px rgba(13,20,33,.13);
+    border-radius: 4px;
+    z-index: 2;
+  }
+  .ce-toolbar__actions--opened{
+    background-color: #fff;
+    border: 1px solid #e8e8eb;
+    -webkit-box-shadow: 0 3px 15px -3px rgba(13,20,33,.13);
+    box-shadow: 0 3px 15px -3px rgba(13,20,33,.13);
+    border-radius: 4px;
+    z-index: 2;
+  }
