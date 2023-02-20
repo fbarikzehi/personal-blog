@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Controllers;
+namespace Common.Ui.Controllers;
 
 public abstract class BaseController : Controller
 {

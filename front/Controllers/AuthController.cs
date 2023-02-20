@@ -1,5 +1,5 @@
-using Common.Controllers;
 using front.ViewModels;
+using Common.Ui.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace front.Controllers;
