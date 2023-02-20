@@ -19,8 +19,9 @@
                 <div class="field">
                     <div class="ui left icon input">
                         <i class="lock icon"></i>
-                        <input type="password" name="password" placeholder="Password">
+                        <input type="password" asp-for="Password" placeholder="Password">
                     </div>
+                    <span asp-validation-for="Password" class="ui error message"></span>
                 </div>
                 <button class="ui animated fluid large button" id="login-btn" tabindex="0">
                     <div class="visible content">Login</div>
