@@ -1,4 +1,4 @@
-@using LoginViewModel
+@model LoginViewModel
 @{
     Layout = "_Layout.Auth";
 }
@@ -8,18 +8,18 @@
             <img src="~/icon/login.png" class="image">
         </h2>
         <form class="ui large form"  action="#" method="post">
-            <div class="ui mini red message">{{context.error_message}}</div>
             <div class="ui segment">
                 <div class="field">
                     <div class="ui left icon input">
                         <i class="user icon"></i>
-                        <input type="text" name="username" placeholder="Username" value="{{ context.username }}">
+                        <input type="text" asp-for="Username" placeholder="Username">
                     </div>
+                    <span asp-validation-for="Username" class="ui error message"></span>
                 </div>
                 <div class="field">
                     <div class="ui left icon input">
                         <i class="lock icon"></i>
-                        <input type="password" name="password" placeholder="Password" value="{{ context.password }}">
+                        <input type="password" name="password" placeholder="Password">
                     </div>
                 </div>
                 <button class="ui animated fluid large button" id="login-btn" tabindex="0">
