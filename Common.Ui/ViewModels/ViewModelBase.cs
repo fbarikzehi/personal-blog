@@ -1,4 +1,4 @@
-namespace common.ui.ViewModels;
+namespace Common.Ui.ViewModels;
 
 public abstract class ViewModelBase<TId>
 {
