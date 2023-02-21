@@ -12,4 +12,5 @@ public class LoginViewModel : ViewModelBase<Guid>
     [Required(ErrorMessage = "{0} is required.", AllowEmptyStrings = false)]
     [DataType(DataType.Password)]
     public string Password { get; set; }
+    public string? ReturnUrl { get; set; }
 }

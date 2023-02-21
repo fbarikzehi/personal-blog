@@ -11,9 +11,9 @@ public class AuthController : BaseController
 
     }
 
-    public IActionResult Login(string returnUrl = null)
+    public IActionResult Login(string? returnUrl = null)
     {
-        return View("Login", new LoginViewModel());
+        return View("Login", new LoginViewModel { ReturnUrl = returnUrl });
     }
 
     [HttpPost]
@@ -23,7 +23,7 @@ public class AuthController : BaseController
         {
             return View(viewModel);
         }
-
+        
         return View();
     }
 
