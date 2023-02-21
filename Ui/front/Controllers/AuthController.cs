@@ -11,7 +11,7 @@ public class AuthController : BaseController
 
     }
 
-    public IActionResult Login()
+    public IActionResult Login(string returnUrl = null)
     {
         return View("Login", new LoginViewModel());
     }
