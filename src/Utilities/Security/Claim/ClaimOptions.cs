@@ -1,4 +1,4 @@
-﻿namespace Common.Security.Claim
+﻿namespace Utilities.Security.Claim
 {
     public static class ClaimOptions
     {

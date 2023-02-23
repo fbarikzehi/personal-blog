@@ -1,11 +1,11 @@
-using front.ViewModels;
+using blog.ViewModels;
 using Base.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Data.Persistence;
 using Utilities.Security.Encryption;
 using Data.Model;
 
-namespace front.Controllers;
+namespace blog.Controllers;
 
 public class AuthController : BaseController
 {

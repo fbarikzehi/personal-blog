@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Common.Security.Claim
+namespace Utilities.Security.Claim
 {
     public static class ClaimManager
     {

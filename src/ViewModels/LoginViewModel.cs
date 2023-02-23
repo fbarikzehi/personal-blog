@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Base.ViewModels;
 
-namespace front.ViewModels;
+namespace blog.ViewModels;
 
 public class LoginViewModel : ViewModelBase<Guid>
 {
