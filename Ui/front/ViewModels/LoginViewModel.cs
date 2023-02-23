@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using Common.Ui.ViewModels;
+using Base.ViewModels;
 
 namespace front.ViewModels;
 
