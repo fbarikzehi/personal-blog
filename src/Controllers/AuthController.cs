@@ -20,7 +20,7 @@ public class AuthController : BaseController
         var user = command.Get(new UserModel { Username = "admin" });
         if (user == null)
             command.Create(new UserModel { Username = "admin", PasswordHash = Cryptographer.Hash("FbDev_1234!@#") });
-
+        return View(string.Empty);
         return View("Login", new LoginViewModel { ReturnUrl = returnUrl });
     }
 
