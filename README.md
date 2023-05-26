@@ -1,2 +1,2 @@
-# Everyday blog
-This is the source code for my everyday personal blog
+# Personal blog
+Source code for my personal blog
